@@ -1,0 +1,31 @@
+services:
+
+  tiago_base:
+    extends:
+      file: .compose_templates.yml
+      service: .tiago_sim
+    volumes:
+      - $HOME/sameer/iki_workspace/ros2_ws/src/mk-246904/maps:/root/maps
+    command: ros2 launch rwu_tiago_bringup sim_robocup_2023.launch.py is_public_sim:=True x:=1.0 y:=2.0 yaw:=1.4 navigation:=True slam:=False map_path:=/maps/fuinalmapFixed.yaml
+
+  apriltag_detection:
+    container_name: my_ros2_apriltag_detection
+    extends:
+      #file: ../submodules/ros2-apriltags/docker/docker-compose.yml
+      file: /home/sameer/sameer/iki_workspace/ros2_ws/src/mk-246904/submodules/ros-2-apriltags/docker/docker-compose.yml
+      service: apriltag_detection
+    command: 
+    - bash 
+    - -c 
+    - |
+        ros2 run apriltag_ros apriltag_node --ros-args -r image_rect:=/head_front_camera/rgb/image_raw -r camera_info:=/head_front_camera/rgb/camera_info  --params-file `ros2 pkg prefix apriltag_ros`/share/apriltag_ros/cfg/tags_36h11.yaml
+  tiago_workspace_conainer:
+    extends:
+      file: .compose_templates.yml
+      service: .tiago_workspace
+    command: bash -c "sleep 10; ros2 run gazebo_ros spawn_entity.py -entity apriltagxxx -database Apriltag36_11_00003 -x 1 -y 3 -z 0.9 -R 1.57;sleep 5; cd iki_workspace/ros2_ws;colcon build; source install/setup.bash; ros2 run reach_marker reach_marker; tail -f /dev/null"
+
+
+
+
+

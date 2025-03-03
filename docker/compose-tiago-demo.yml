@@ -1,0 +1,18 @@
+services:
+  tiago_sim:
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim
+    container_name: tiago_sim
+    environment:
+      ROS_DOMAIN_ID: $ROS_DOMAIN_ID
+      DISPLAY: $DISPLAY
+    network_mode: host
+    ipc: host
+    privileged: true
+    stdin_open: true
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/root/.Xauthority:ro
+    command: ros2 launch rwu_tiago_bringup sim_robocup_2023.launch.py x:=1.0 y:=2.0 yaw:=1.4 moveit:=True navigation:=True slam:=True map_path:=no_map_needed_since_slam_is_enabled is_public_sim:=True [arm_type:=no-arm]
+      
+networks: {}
+

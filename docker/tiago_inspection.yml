@@ -1,0 +1,16 @@
+services:
+
+  tiago_sim_container:
+    extends:
+      file: .compose_templates.yml
+      service: .tiago_sim
+    command:
+      - bash
+      - -c
+      - |
+        ros2 launch rwu_tiago_bringup sim_robocup_2023.launch.py is_public_sim:=True x:=-1.451 y:=-5.25 yaw:=1.57 navigation:=True slam:=False map_path:=/maps/fuinalmapFixed.yaml&
+        sleep 5
+        ros2 run gazebo_ros spawn_entity.py -entity door -database counter -x -1.50 -y -4.36 -z 0 -Y 0
+        ros2 run gazebo_ros spawn_entity.py -entity obstacle -database small_table -x -0.99 -y -2.96 -z 0 -Y 0
+        ros2 run gazebo_ros spawn_entity.py -entity obstacle2 -database small_table -x -1.84 -y -2.57 -z 0 -Y 0
+        tail -f /dev/null

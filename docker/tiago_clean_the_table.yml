@@ -1,0 +1,24 @@
+services:
+
+  
+  tiago_workspace_conainer:
+    extends:
+      file: .compose_templates.yml
+      service: .tiago_workspace
+    working_dir: /root/ros2_ws
+    command: 
+      - bash
+      - -c
+      - |
+
+        
+        ros2 action send_goal /head_controller/increment teleop_tools_msgs/action/Increment "{increment_by:[0.0,-0.8,0.1]}" &&
+
+        cd /ros2_ws
+        colcon build &&
+        source install/setup.bash &&
+        ros2 run clean_the_table rock_and_roll
+        
+        tail -f /dev/null
+    
+  

@@ -1,0 +1,51 @@
+services:
+
+  .tiago_sim:
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim
+    extends: .gui_nav
+
+  .tiago_workspace: 
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:latest
+    extends: .workspace_gui
+
+  .gui:
+    extends: .common #replace with .common_nvidia if you are using the docker nvidia runtime and know what you are doing
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/root/.Xauthority:ro
+
+  .gui_nav:
+    extends: .common #replace with .common_nvidia if you are using the docker nvidia runtime and know what you are doing
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/root/.Xauthority:ro
+      - ${IKI_WORKSPACE}:/iki_workspace
+      - ${IKI_WORKSPACE}:/ros2_ws/src/mk-246904/maps
+      - ${IKI_WORKSPACE}:/ros2_ws/src/mk-246904/model
+
+  .workspace_gui:
+    extends: .common #replace with .common_nvidia if you are using the docker nvidia runtime and know what you are doing
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/root/.Xauthority:ro
+      - ${IKI_WORKSPACE}:/root
+      - ${IKI_WORKSPACE}:/ros2_ws/src/mk-246904/models
+
+  .common:
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/orga/ros2-docker-base:humble
+    environment:
+      ROS_DOMAIN_ID: $ROS_DOMAIN_ID
+      DISPLAY: $DISPLAY
+    network_mode: host
+    ipc: host
+    privileged: true
+    stdin_open: true
+ 
+  
+  .common_nvidia:
+    extends: .common
+    runtime: nvidia
+    environment:
+      QT_X11_NO_MITSHM: "1"
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,video,utility,graphics

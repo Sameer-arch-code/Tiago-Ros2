@@ -1,0 +1,1197 @@
+[0.276s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'clean_the_table']
+[0.276s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['clean_the_table'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x735cadf65690>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x735cae06de10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x735cae06de10>>, mixin_verb=('build',))
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.580s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.582s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.582s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/models'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/scripts) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000/materials/textures) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'ros'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extensions ['cmake', 'python']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'cmake'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/scripts) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00000_cube/materials/textures) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/scripts) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001/materials/textures) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/scripts) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00001_cube/materials/textures) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/scripts) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002/materials/textures) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/scripts) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00002_cube/materials/textures) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/scripts) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003/materials/textures) by extension 'python_setup_py'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'ros'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extensions ['cmake', 'python']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'python'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extensions ['python_setup_py']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube) by extension 'python_setup_py'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/scripts) by extension 'python_setup_py'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extensions ['cmake', 'python']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'cmake'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'python'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extensions ['python_setup_py']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00003_cube/materials/textures) by extension 'python_setup_py'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extensions ['python_setup_py']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'ros'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extensions ['cmake', 'python']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'cmake'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'python'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extensions ['python_setup_py']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials) by extension 'python_setup_py'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'ros'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extensions ['cmake', 'python']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'cmake'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'python'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extensions ['python_setup_py']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/scripts) by extension 'python_setup_py'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'ros'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extensions ['cmake', 'python']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'cmake'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'python'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extensions ['python_setup_py']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00004/materials/textures) by extension 'python_setup_py'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'python'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/scripts) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00005/materials/textures) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'python'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'ros'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extensions ['cmake', 'python']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'cmake'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'ros'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extensions ['cmake', 'python']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'cmake'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/scripts) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extensions ['python_setup_py']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00006/materials/textures) by extension 'python_setup_py'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extensions ['python_setup_py']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007) by extension 'python_setup_py'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'ros'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extensions ['cmake', 'python']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'cmake'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'python'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extensions ['python_setup_py']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials) by extension 'python_setup_py'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'ros'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/scripts) by extension 'python_setup_py'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'ros'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00007/materials/textures) by extension 'python_setup_py'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'cmake'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'python'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extensions ['python_setup_py']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008) by extension 'python_setup_py'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extensions ['cmake', 'python']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'cmake'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'python'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extensions ['python_setup_py']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials) by extension 'python_setup_py'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'ros'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extensions ['cmake', 'python']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'cmake'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'python'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extensions ['python_setup_py']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/scripts) by extension 'python_setup_py'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00008/materials/textures) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'ros'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extensions ['cmake', 'python']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'cmake'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'python'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extensions ['python_setup_py']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/scripts) by extension 'python_setup_py'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'ros'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extensions ['cmake', 'python']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00009/materials/textures) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'cmake'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'python'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extensions ['python_setup_py']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010) by extension 'python_setup_py'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'cmake'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials) by extension 'python_setup_py'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/scripts) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'ros'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extensions ['cmake', 'python']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'cmake'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'python'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extensions ['python_setup_py']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00010/materials/textures) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'ros'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extensions ['cmake', 'python']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'cmake'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'python'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extensions ['python_setup_py']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011) by extension 'python_setup_py'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'ros'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extensions ['cmake', 'python']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'cmake'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'python'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extensions ['python_setup_py']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials) by extension 'python_setup_py'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'ros'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extensions ['cmake', 'python']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'cmake'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'python'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extensions ['python_setup_py']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/scripts) by extension 'python_setup_py'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'ros'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extensions ['cmake', 'python']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'cmake'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'python'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extensions ['python_setup_py']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00011/materials/textures) by extension 'python_setup_py'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'ros'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extensions ['cmake', 'python']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'cmake'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'python'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extensions ['python_setup_py']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012) by extension 'python_setup_py'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'ros'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extensions ['cmake', 'python']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials) by extension 'python_setup_py'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'ros'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extensions ['cmake', 'python']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/scripts) by extension 'python_setup_py'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extensions ['colcon_meta']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'colcon_meta'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00012/materials/textures) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'ros'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extensions ['cmake', 'python']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'python'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extensions ['python_setup_py']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013) by extension 'python_setup_py'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials) by extension 'python_setup_py'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'python'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/scripts) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'ros'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extensions ['cmake', 'python']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'cmake'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'python'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00013/materials/textures) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'python'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extensions ['python_setup_py']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'python'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extensions ['python_setup_py']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'ros'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extensions ['cmake', 'python']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'cmake'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/scripts) by extension 'python_setup_py'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00014/materials/textures) by extension 'python_setup_py'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015) by extension 'python_setup_py'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extensions ['cmake', 'python']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'cmake'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'python'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extensions ['python_setup_py']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials) by extension 'python_setup_py'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extensions ['cmake', 'python']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'cmake'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'python'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extensions ['python_setup_py']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/scripts) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'colcon_meta'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extensions ['ros']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'ros'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extensions ['cmake', 'python']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'cmake'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'python'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extensions ['python_setup_py']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(april_tags/Apriltag36_11_00015/materials/textures) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.669s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'clean_the_table' in --packages-select
+[0.705s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.708s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.709s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.723s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.723s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.732s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.733s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/models/install/local_setup.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating prefix util module '/models/install/_local_setup_util_ps1.py'
+[0.745s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/models/install/setup.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/models/install/local_setup.sh'
+[0.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/models/install/_local_setup_util_sh.py'
+[0.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/models/install/setup.sh'
+[0.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/models/install/local_setup.bash'
+[0.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/models/install/setup.bash'
+[0.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/models/install/local_setup.zsh'
+[0.770s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/models/install/setup.zsh'

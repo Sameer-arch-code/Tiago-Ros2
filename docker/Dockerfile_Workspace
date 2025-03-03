@@ -1,0 +1,11 @@
+# Use the image from .compose_templates.yml workspace
+FROM fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim
+
+# Add additional dependencies if needed here
+RUN apt-get update && apt-get install -y \
+    ros-humble-rqt-robot-steering \
+    && rm -rf /var/lib/apt/lists/*  # Clean up to reduce image size
+
+# Default command
+CMD ["tail", "-f", "/dev/null"]
+    
